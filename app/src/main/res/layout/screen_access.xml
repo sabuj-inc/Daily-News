@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/screenAccess"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingStart="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp">
+
+        <LinearLayout
+            android:id="@+id/copyLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/about_button_background"
+                android:paddingStart="20dp">
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_gravity="center_vertical"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/copy_icon" />
+
+                <TextView
+                    android:id="@+id/fullScreen"
+                    style="@style/defaultTxt"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:text="Copy Link"
+                    android:textColor="@color/color"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height=".5dp"
+                android:background="#EDEDED" />
+
+            <LinearLayout
+                android:id="@+id/shareLink"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/about_button_background"
+                android:paddingStart="20dp">
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_gravity="center_vertical"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/share_icon" />
+
+                <TextView
+                    style="@style/defaultTxt"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:text="Share Link"
+                    android:textColor="@color/color"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

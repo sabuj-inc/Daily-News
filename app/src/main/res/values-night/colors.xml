@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="root_color">#242323</color>
+    <color name="default_text_color">#EFEDED</color>
+    <color name="day">#4C4747</color>
+    <color name="loading_color">#242323</color>
+    <color name="search_hint_color">#F6F6F6</color>
+    <color name="search_background_color">#494949</color>
+    <color name="search_icon">#717171</color>
+    <color name="card_text_color">#F1ECEC</color>
+    <color name="card_select_background">#636363</color>
+    <color name="card_unselect_background">#2E2E2E</color>
+</resources>
